@@ -1,6 +1,6 @@
 # change_screen_animation
 
-A new flutter package project.
+Animation for change screen in flutter
 
 ## Getting Started
 

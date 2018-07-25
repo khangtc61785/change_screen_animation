@@ -1,7 +1,6 @@
+// @author Khang Truong <khangtc61785@outlook.com>
+
 library change_screen_animation;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/slide_route.dart';
+export 'src/scale_route.dart';
