@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     SlideDownRoute(widget: TestScreen()),
                   );
                 },
-                title: new Text("Slide to down"),
+                title: new Text("Slide to bottom"),
               ),
             ),
             // Slide to top right
