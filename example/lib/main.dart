@@ -137,6 +137,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 title: new Text("Scale ahead"),
               ),
             ),
+            new Text("Fade animation", style: TextStyle(fontSize: 20.0),),
+            new Card(
+              child: new ListTile(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    FadeRoute(widget: TestScreen()),
+                  );
+                },
+                title: new Text("Fade"),
+              ),
+            ),
           ],
         )) // This trailing comma makes auto-formatting nicer for build methods.
         );
